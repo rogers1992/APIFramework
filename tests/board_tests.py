@@ -1,7 +1,7 @@
 from src.endpoints.boards import Board
 board  = Board()
 def test_create_board():
-    response = board.create_board("testPython1")
+    response = board.create_board("testPythonRoger")
     print(response.status_code)
     print(response.url)
     print(response.json())

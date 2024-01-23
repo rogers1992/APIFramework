@@ -11,7 +11,7 @@ class ConfigInfo(object):
     print(os.path.abspath(os.path.join(path, os.pardir)))
     print(absolute_path)
     print(os.listdir('.'))
-    with open('../config.json', 'r') as file:
+    with open('config.json', 'r') as file:
         config = json.load(file)
     _instance = None
     __base_url = config['General']['API_URL']
