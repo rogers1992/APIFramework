@@ -1,6 +1,7 @@
 {
   "General":{
-    "API_URL": "https://api.trello.com"
+    "API_URL": "https://api.trello.com",
+    "API_VERSION": "1"
   },
   "Credentials": {
     "API_KEY": "",
